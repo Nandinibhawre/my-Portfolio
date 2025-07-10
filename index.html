@@ -1,0 +1,261 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Nav section -->
+   
+  <header>
+    <nav class="nav">
+        <div class="logo">
+          <p>NANDINI ARVIND BHAWRE</p>
+        </div>
+        <div class="links">
+          <a class="link" href="#home">Home</a>
+          <a class="link" href="#about">About</a>
+          <a class="link" href="#services">Services</a>
+          <a class="link" href="#portfolio">My Work</a>
+          <a class="link" href="#contact">Contact</a>
+        </div>
+      </nav>
+    <!-- home section -->
+    <section id="main">
+      <div class="main-text">
+        <span>
+          <h1 class="welcome-text"> Welcome, I'm <span class="highlight">Nandini Bhawre</span></h1>
+        </span>
+        <span>
+          <h1 class="role-text">I'm a <span id="element" class="highlight"></span></h1>
+        </span>
+        <p class="description">"An enthusiastic front-end developer with a strong background in creating user-friendly and
+          responsive web
+          applications with HTML, CSS, JavaScript, and React. capable of working with full-stack teams because of
+          familiarity with backend technologies like Java and Spring MVC. devoted to producing clear, effective code
+          and providing smooth user experiences in fast-paced development settings."</p>
+        <div class="button">
+          <a href="#about">
+          <button class="btn">About</button>
+        </a>
+        <a href="Resume -Nandini Bhawre.pdf" download >
+          <button class="btn">Download CV</button>
+        </a>
+        </div>
+      </div>
+    </section>
+     </header>
+    
+
+    <!-- about section -->
+    <section id="about">
+      <div class="about-container">
+        <div class="row">
+          <div class="col-2">
+            <h1>About Me</h1>
+            <p class="about-description">Hi, I'm <span class="name">Nandini Bhawre</span>, a passionate and motivated Web Designer and Full Stack
+              Developer with a strong foundation in Java, HTML, CSS, JavaScript, and React.js. I’ve recently completed
+              my Master’s in Computer Applications (MCA) and now  I am ready to begin my professional journey in the tech
+              industry.</p>
+            <p class="about-description">During my academic projects and self-learning, I’ve built several responsive
+              websites and web applications, gaining experience with both front-end and back-end development. I’m
+              comfortable working with Java, Spring Boot, ASP.NET Web API, and basic SQL for backend development.</p>
+            <div class="task-tabs">
+              <p class="task active-link " onclick="opentab('skills')">Skills</p>
+              <p class="task" onclick="opentab('experience')">Experience</p>
+              <p class="task" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="task-contents active-tab" id="skills">
+              <ul>
+                <li><span class="highlight">Web Designer</span><BR>Design responsive interfaces</li>
+                <li><span class="highlight">Java Developer</span><BR>Develop Java applications</li>
+                <li><span class="highlight">Front-End Developer</span><BR>Implement user interfaces</li>
+              </ul>
+            </div>
+            <div class="task-contents" id="experience">
+              <ul>
+                <li><span class="highlight">It-NetworkZ Infosystems Pvt Ltd</span><BR>Project Trainee - jan 2025-present
+                </li>
+                <li><span class="highlight">NLT Infotech Pvt Ltd</span><BR>Intern - June 2024 - Dec 2024</li>
+                <li><span class="highlight">Octanet Pvt Ltd</span><BR>Intern - Oct 2023 - Sept 2023</li>
+              </ul>
+            </div>
+            <div class="task-contents" id="education">
+              <ul>
+                <li><span class="highlight">Master in Computer Applications</span><BR>GH Raisoni University,Amravati
+                  2023-2025</li>
+                <li><span class="highlight">Bachelor in Computer Applications</span><BR>Sadabai Raisoniwomen's College,
+                  Nagpur 2020-2023</li>
+                <li><span class="highlight">Java Full-Stack development Course </span><BR>NLT Infotech Pvt Ltd -2023
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services section -->
+    <section id="services">
+      <div class="services-container">
+        <h1 class="services-title">My Services</h1>
+        <div class="services-row">
+          <div class="service-card">
+            <i class="fas fa-laptop-code"></i>
+            <h2>Web Design</h2>
+            <p class="service-description">I design clean, modern, and responsive websites that not only look great but
+              also offer a smooth user experience. My focus is on creating visually appealing layouts that reflect your
+              brand and connect with your audience.</p>
+            <p class="service-description">From planning wireframes to crafting pixel-perfect designs, I ensure that
+              every element — from colors and typography to navigation and content — works together seamlessly. Whether
+              it’s a landing page, a portfolio, or a full website, I aim to make it functional, user-friendly, and fully
+              mobile-optimized.</p>
+          </div>
+          <div class="service-card">
+            <i class="fa-brands fa-react"></i>
+            <h2>Web Development</h2>
+            <p class="service-description">I build dynamic, fast, and fully functional websites using the latest web
+              technologies. My Web Development services focus on bringing designs to life with clean, efficient, and
+              scalable code.</p>
+            <p class="service-description">Whether it’s developing a simple landing page or a complex web application, I
+              work on both the frontend and backend to ensure smooth performance, responsive layouts, and seamless user
+              interactions.Using tools like HTML, CSS, JavaScript, React, and backend frameworks, I transform ideas into
+              powerful digital experiences that work flawlessly across all devices.</p>
+          </div>
+          <div class="service-card">
+            <i class="fa-brands fa-java"></i>
+            <h2>Java Development</h2>
+            <p class="service-description">I develop reliable, scalable, and high-performing applications using Java,
+              with a strong focus on the Spring MVC framework.</p>
+            <p class="service-description">With Spring MVC, I build structured and maintainable web applications by
+              separating concerns between the user interface, business logic, and data access layers. Whether it's
+              creating RESTful APIs, handling form submissions, or connecting to databases, I ensure smooth backend
+              operations and clean architecture.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- mywork section -->
+    <section id="portfolio">
+        <h1 class="project-title">My Work</h1>
+        <div class="project-list">
+          <div class="project-card">
+            <img src="FlowerStore.webp" alt="Project 1">
+            <div class="layer">
+              <h2>sweet Scents Flower Store</h2>
+              <p>This is a beautiful frontend project for a flower store named Sweet Scents, built using ReactJS, HTML, and CSS.It includes a responsive navigation bar with sections like Home, About, Gallery, Services, and Contact, providing a seamless user experience. This project demonstrates frontend development skills including React components, responsive layouts, and custom CSS styling.</p>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="ScholarshipPortal.webp" alt="Project 1">
+            <div class="layer">
+              <h2>Scholarship Portal</h2>
+              <p>This is a Scholarship Portal web application developed using Spring MVC, designed for managing educational scholarships in Maharashtra for the academic year 2024–2025. The portal features two main modules: User and Admin.The front end is built using HTML, CSS, and JSP, while the back end uses Spring MVC  and JDBC/MySQL for data management. The portal is visually engaging with a user-friendly interface and a secure login system.</p>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="ETS.webp" alt="Project 1">
+            <div class="layer">
+              <h2>Electronic Test System </h2>
+              <p>A secure and scalable online examination platform built with ReactJS and ASP.NET Web API. Features include AI-based exam proctoring, real-time performance analytics, and survey management for educational institutions.</p>
+            </div>
+          </div>
+        <div class="project-card">
+            <img src="Aadhar.webp" alt="Project 1">
+            <div class="layer">
+              <h2>Aadhar Application</h2>
+              <p>This project is a web-based Aadhar Application developed using JSP (JavaServer Pages) and Servlets. It provides a login interface and supports full CRUD (Create, Read, Update, Delete) operations for managing Aadhar user data. The interface includes basic authentication, real-time tracking of browser sessions and requests, and uses a simple frontend with HTML and CSS</p>
+            </div>
+          </div>
+
+          <!-- <div class="project-card"> 
+            <img src="fruit.png" alt="Project 1">
+            <div class="layer">
+              <h3>Portfolio Website</h3>
+              <p>A personal portfolio website showcasing my projects and skills.</p>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="Aadhar.png" alt="Project 1">
+            <div class="layer">
+              <h3>Portfolio Website</h3>
+              <p>A personal portfolio website showcasing my projects and skills.</p>
+            </div> 
+          </div> -->
+        </div>
+    </section>
+    <!-- contact section -->
+    <section id="contact"> 
+      <div class="contact-container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="contact-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope email icon"></i><a href="mailto:nandinibhawre24@gmail.com"
+                target="_blank">nandinibhawre24@gmail.com</a></p>
+            <p><i class="fa-solid fa-location-dot icon"></i><a href="//www.google.com/maps/place/Nagpur,+Maharashtra"
+                target="_blank">Nagpur,Maharashtra</a></p>
+            <div class="social-icons">
+              <a href="http://"><i class="fa-brands fa-facebook"></i></a>
+              <a href="http://"><i class="fa-brands fa-instagram"></i></a>
+              <a href="http://"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="http://"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet" >
+              <input type="text" name="Name" id="name" placeholder="Your Name">
+              <input type="email" name="Email" id="email" placeholder="Your Email">
+              <input type="text" name="Number" id="number" placeholder="Your Number">
+              <textarea name="Message" rows="2" id="message" placeholder="Your Message"></textarea>
+              <button class="form-btn" type="submit">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </section> 
+
+    <section id="footer">
+      <div class="footer-data">
+       <h4>Copyright &copy; Nandini bhawre</h4>
+       <p> All Rights Reserved.</p>
+       </div>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('#element',
+        {
+          strings: ['Web Designer','FrontEnd Developer','Backend Developer','Java Developer'],
+          typeSpeed: 60,
+          backSpeed: 40,
+          loop: true,
+        });
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbytU7mhoJUmAdCVej757zUMs8XneaSCuQ_uSKUwV9vldKVfDanpjtnKQzTt6jsARXwJ/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then(response => {
+            msg.innerHTML ="Message Sent Successfully"
+            setTimeout(function()
+          {
+            msg.innerHTML=""
+          },5000)
+          form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
