@@ -44,7 +44,7 @@ header {
   text-shadow: rgba(223, 197, 176, 0.5) 0px 5px 10px;
   justify-content: flex-start;
   font-family: "Winky Sans", sans-serif;
-  padding: 10px 6px;
+  padding: 10px 5px;
 }
 
 .logo p {
@@ -660,7 +660,7 @@ form .form-btn:hover
   font-family: 'Yrsa', sans-serif;
   color: #333;
   overflow-x: hidden;
-  width: 160%;
+  width: 10 0%;
 }
   header {
   height: 100%;
@@ -690,7 +690,7 @@ form .form-btn:hover
 }
 .main-text .welcome-text {
   font-family: 'Roboto', cursive;
-    font-size: 40px;
+    font-size: 20px;
     color: #ffffff;
     position: relative;
     left: -1%;
@@ -958,11 +958,11 @@ font-weight: 500;
   body {
   font-family: 'Yrsa', sans-serif;
   color: #333;
-  width: 250%;
+  width: 100%;
 }
 header 
 {
- height: 150%;
+ height: 100%;
  background-repeat: no-repeat;
  background-size:cover;
  background-attachment: fixed;
@@ -979,30 +979,30 @@ header
 
   .main-text 
   {     
-    width: 70%;
-        position: static;
+    width: 100%;
         text-align: center;
         position: relative;
-        top: 50px;
-
-        padding: 80px;
+        top: 10px;
+        padding: 20px;
   }
 
   .main-text .welcome-text 
   {
-    font-size: 40px;
+    font-size: 27px;
   }
 
   .main-text .role-text
   {
-    font-size: 30px;
+    font-size: 20px;
     width: 100%;
   }
 .main-text .description
 {
   text-align: center;
-  font-size: 25px;
-  width: 80%;
+  position: relative;
+  right: 10%;
+  font-size: 18px;
+  width: 100%;
   padding-left: 20%;
 }
 
@@ -1036,7 +1036,7 @@ header
 
 .links {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   width: 100%;
   justify-content: center;
 
@@ -1045,7 +1045,7 @@ header
 .link {
   color: #fff;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 20px;
   position: relative;
   padding: 10px 10px;
 }
@@ -1076,11 +1076,11 @@ header
 }
 
 .col-2 .about-description {
-  font-size: 18px;
+  font-size: 20px;
   color: #000000;
   line-height: 1.5;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .col-2 .task-tabs {
@@ -1089,7 +1089,7 @@ header
 }
 
 .col-2 .task {
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   color: #000000;
@@ -1118,8 +1118,8 @@ header
 }
 .task-contents ul li {
   list-style: none;
-  margin: 10px 0;
-  font-size: 20px;
+  margin: 5px 0;
+  font-size: 18px;
   position: relative;
   text-align: center;
   color: #000000;
@@ -1140,7 +1140,7 @@ header
 /* Services section */
 #services {
   background-color: #fef0e5;
-  height: 150%;
+  height: 100%;
 }
 
 .services-title,
@@ -1157,8 +1157,8 @@ header
 .services-row {
   display: grid;
    grid-template-columns: 1fr;
-  gap: 1 0px;
-  padding: 20px;
+  gap: 5px;
+  padding: 1px;
   justify-content: center;
 }
 
@@ -1166,7 +1166,7 @@ header
   background-color: #fff;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  padding: 15px 30px;
+  padding: 15px 10px;
   width: 95%;
   margin: 10px;
   transition: background-color 0.3s ease, transform 0.3s ease;
@@ -1182,30 +1182,31 @@ header
 }
 
 .service-card i {
-  font-size: 40px;
+  font-size: 20px;
   color: #634c03;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .service-card h2 {
-  font-size: 25px;
+  font-size: 12px;
   color: #000000;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   text-align: left;
 }
 
 .service-card .service-description {
-  font-size: 18px;
+  font-size: 10px;
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 8px;
   color: #000000;
   line-height: 1.5;
   text-align: justify;
 }
+
 #portfolio {
   background-color: rgba(176, 139, 110, 0.5);
   padding: 20px 0;
-  height: 170%;
+  height: 100%;
 }
 
 
@@ -1216,8 +1217,9 @@ header
   border-radius: 10px;
   transition: transform 0.5s;
 }
-  .project-list {
-    grid-template-columns: repeat(2, 1fr);
+  .project-list 
+  {
+      grid-template-columns: repeat(2, 1fr);
       gap: 15px;
       height: 95%;
       width: 95%;
@@ -1251,15 +1253,182 @@ header
 .layer h3 {
   font-family: 'yrsa', sans-serif;
   font-weight: 500;
+  font-size: small;
   margin-bottom: 10px;
 }
-
+.layer p {
+ font-size: x-small;
+}
 .project-card:hover img {
   transform: scale(1.05);
 }
 
-.project-card:hover .layer {
+.project-card:hover .layer 
+{
   height: 100%;
+}
+
+#contact {
+  background-color: #fef0e5;
+  padding: 10px 0;
+  height: 90%;
+  
+}
+
+.contact-container {
+  width: 90%;
+  background: linear-gradient(rgba(76, 57, 38, 0.737), rgba(50, 40, 30, 0.4));
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 20px;
+  height: 85%;
+  display: flex;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.contact-container:hover {
+  transform: translateY(-10px);
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.row .contact-left 
+{
+  flex: 1;
+  flex-basis: 100%;
+  padding: 10px;
+}
+
+.row .contact-right {
+  flex: 1;
+  flex-basis: 100%;
+  padding: 20px;
+}
+.contact-info
+{
+  display: flex;
+}
+.contact-title{
+ font-size: 30px;
+ font-family: "Winky Sans", sans-serif;
+ text-shadow: rgba(239, 236, 225, 0.7) 0px 2px 5px;
+ color: #000;
+  margin: 10px 20px 40px 20px;
+  position: relative;
+}
+.contact-title::after {
+  content: '';
+  width: 32%;
+  height: 4px;
+  background-color:  #634c03;
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+}
+
+.row .contact-left p {
+  font-size: 13px;
+   margin: 10px 20px 20px 20px;
+}
+
+.row .contact-left a {
+  color: #fffbfb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.row .contact-left .icon {
+  font-size: 10px;
+  margin-right: 1px;
+  color: #ffffff;
+}
+
+.row .social-icons a {
+  font-size: 20px;
+  display: inline-block;
+  align-items: center;
+ margin: 5px 5px 0px 20px;
+  color: #ffffff;
+  transition: transform 0.3s;
+}
+.row .social-icons a:hover {
+  color: #564408;
+  transform: translateY(-5px);
+}
+
+.contact-right form{
+  width: 100%;
+}
+
+form input,form textarea{
+  width: 100%;
+  font-family: 'Yrsa', sans-serif;
+  border: 1px solid saddlebrown;
+  outline:none;
+  background-color: #f4e9df;
+  font-family: 'R';
+  padding: 10px;
+  margin: 5px 0;
+  color: #000000;
+  font-size: 18px;
+  border-radius: 6px;
+}
+form ::placeholder
+{
+  color: #000000;
+  font-size: large;
+  align-items: center;
+}
+
+form .form-btn
+{
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 10%;
+  border: none;
+  color: #ffffff;
+  background: #4e3a27de;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 5px 10px;
+}
+form .form-btn:hover
+{
+    background: #725747;
+}
+
+#footer
+{
+  width: 100%;
+  height: 10%;
+  font-size: 18px;
+  padding: 10px;
+  font-family: 'Yrsa', sans-serif;
+   background-color: #4f3e05c3;
+  color: #ffff;
+
+}
+.footer-data
+{
+    text-align: center;
+
+}
+
+#msg
+{
+  color: green;
+  display: block;
+  margin-top: 2%;
 }
 }
 
@@ -1270,13 +1439,15 @@ header
   body {
   font-family: 'Yrsa', sans-serif;
   color: #333;
-  width: 250%;
+  width: 100%;
 }
 header 
 {
- height: 120%;
+ height: 100%;
+ background: url("background.webp");
  background-repeat: no-repeat;
- background-size:calc(180%);
+ background-size:cover;
+ background-position: center;
  background-attachment: fixed;
   color: #fff;
   width: 100%;
@@ -1305,19 +1476,21 @@ header
 
   .main-text .welcome-text 
   {
-    font-size: 40px;
+    font-size: 20px;
   }
 
   .main-text .role-text
   {
-    font-size: 30px;
+    font-size: 10px;
     width: 100%;
   }
 .main-text .description
 {
   text-align: center;
-  font-size: 30px;
-  width: 80%;
+  font-size: 15px;
+  width: 100%;
+  position: relative;
+  right: 10%;
   padding-left: 20%;
 }
 
@@ -1325,7 +1498,7 @@ header
   {
     margin: 10px 5px 0;
     padding: 8px 16px;
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .nav {
@@ -1345,25 +1518,25 @@ header
 }
 
 .logo p {
-  font-size: 35px;
+  font-size: 21px;
   font-weight: bold;
 }
 
 .links {
   display: flex;
-  gap: 20px;
+  gap: 15px;
   width: 100%;
   justify-content: center;
 
 }
 
 .link {
-  color: #fff;
-  text-decoration: none;
-  font-size: 30px;
-  position: relative;
-  padding: 10px 10px;
-}
+        color: #fff;
+        text-decoration: none;
+        font-size: 13px;
+        position: relative;
+        padding: 10px 0px;
+    }
 
 #about {
   background-color: rgba(176, 139, 110, 0.5);
@@ -1382,7 +1555,7 @@ header
 }
 
 .col-2 h1 {
-  font-size: 36px;
+  font-size: 30px;
   font-family: "Winky Sans", sans-serif;
   text-shadow: rgba(79, 63, 9, 0.8) 0px 5px 10px;
   color: #000000;
@@ -1391,11 +1564,11 @@ header
 }
 
 .col-2 .about-description {
-  font-size: 25px;
+  font-size: 15px;
   color: #000000;
   line-height: 1.5;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .col-2 .task-tabs {
@@ -1404,11 +1577,11 @@ header
 }
 
 .col-2 .task {
-  font-size: 27px;
+  font-size: 15px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   color: #000000;
-  margin-right: 50px;
+  margin-right: 25px;
   position: relative;
   padding: 10px 0px 10px;
   cursor: pointer;
@@ -1434,8 +1607,9 @@ header
 .task-contents ul li {
   list-style: none;
   margin: 20px 0;
-  font-size: 26px;
+  font-size: 13px;
   position: relative;
+  right: 6%;
   text-align: center;
   color: #000000;
 }
@@ -1455,17 +1629,17 @@ header
 /* Services section */
 #services {
   background-color: #fef0e5;
-  height: 130%;
+  height: 100%;
 }
 
 .services-title,
 .project-title {
-  font-size: 36px;
+  font-size: 30px;
   font-family: "Winky Sans", sans-serif;
  text-shadow: rgba(79, 63, 9, 0.8) 0px 5px 10px;
   color: #000000;
   margin-bottom: 3px;
-  padding: 10px 50px;
+  padding: 2px 10px;
   text-align: center;
 }
 
@@ -1473,7 +1647,7 @@ header
   display: grid;
    grid-template-columns: 1fr;
   gap: 2px;
-  padding: 15px;
+  padding: 10px;
   justify-content: center;
 }
 
@@ -1497,30 +1671,30 @@ header
 }
 
 .service-card i {
-  font-size: 40px;
+  font-size: 15px;
   color: #634c03;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .service-card h2 {
-  font-size: 30px;
+  font-size: 13px;
   color: #000000;
-  margin-bottom: 6px;
+  margin-bottom: 2px;
   text-align: left;
 }
 
 .service-card .service-description {
-  font-size: 20px;
+  font-size: 10px;
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 4px;
   color: #000000;
-  line-height: 1.5;
+  line-height: 1.3;
   text-align: justify;
 }
 #portfolio {
   background-color: rgba(176, 139, 110, 0.5);
   padding: 20px 0;
-  height:200%;
+  height:100%;
 }
 
  .project-list {
@@ -1529,7 +1703,7 @@ header
         width: 80%;
         position: relative;
         left: 8%;
-        gap: 20px;
+        gap: 10px;
   }
   .project-card {
     width: 100%;
@@ -1550,9 +1724,12 @@ header
 {
   font-family: 'yrsa', sans-serif;
   font-weight: 500;
+  font-size: small;
   margin-bottom: 10px;
 }
-
+.layer p {
+ font-size: x-small;
+}
 .project-card:hover img 
 {
   transform: scale(1.05);
@@ -1561,5 +1738,166 @@ header
 .project-card:hover .layer
  {
   height: 100%;
+}
+
+/* contact section  */
+#contact {
+  background-color: #fef0e5;
+  padding: 10px 0;
+  height: 90%;
+  
+}
+
+.contact-container {
+  width: 90%;
+  background: linear-gradient(rgba(76, 57, 38, 0.737), rgba(50, 40, 30, 0.4));
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 20px;
+  height: 85%;
+  display: flex;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.contact-container:hover {
+  transform: translateY(-10px);
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.row .contact-left 
+{
+  flex: 1;
+  flex-basis: 100%;
+  padding: 10px;
+}
+
+.row .contact-right {
+  flex: 1;
+  flex-basis: 100%;
+  padding: 20px;
+}
+
+.contact-title{
+ font-size: 30px;
+ font-family: "Winky Sans", sans-serif;
+ text-shadow: rgba(239, 236, 225, 0.7) 0px 2px 5px;
+ color: #000;
+  margin: 10px 20px 20px 20px;
+  position: relative;
+}
+.contact-title::after {
+  content: '';
+  width: 32%;
+  height: 4px;
+  background-color:  #634c03;
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+}
+
+.row .contact-left p {
+  font-size: 15px;
+   margin: 10px 20px 20px 20px;
+}
+
+.row .contact-left a {
+  color: #fffbfb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.row .contact-left .icon {
+  font-size: 15px;
+  margin-right: 5px;
+  color: #ffffff;
+}
+
+.row .social-icons a {
+  font-size: 20px;
+  display: inline-block;
+  align-items: center;
+ margin: 0px 0px 0px 20px;
+  color: #ffffff;
+  transition: transform 0.3s;
+}
+.row .social-icons a:hover {
+  color: #564408;
+  transform: translateY(-5px);
+}
+
+.contact-right form{
+  width: 100%;
+}
+
+form input,form textarea{
+  width: 100%;
+  border: 1px solid saddlebrown;
+  outline:none;
+  background-color: #f4e9df;
+  font-family: 'roboto';
+  padding: 10px;
+  margin: 5px 0;
+  color: #000000;
+  font-size: 10px;
+  border-radius: 6px;
+}
+form ::placeholder
+{
+  color: #000000;
+  font-size: 12px;
+  align-items: center;
+}
+
+form .form-btn
+{
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 15%;
+  border: none;
+  color: #ffffff;
+  background: #4e3a27de;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 5px 10px;
+}
+
+form .form-btn:hover
+{
+    background: #725747;
+}
+
+#footer
+{
+  width: 100%;
+  height: 10%;
+  font-size: 18px;
+  padding: 10px;
+  font-family: 'Yrsa', sans-serif;
+   background-color: #4f3e05c3;
+  color: #ffff;
+
+}
+.footer-data
+{
+    text-align: center;
+
+}
+
+#msg
+{
+  color: green;
+  display: block;
+  margin-top: 2%;
 }
 }
