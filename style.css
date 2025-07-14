@@ -1321,7 +1321,7 @@ header
  font-family: "Winky Sans", sans-serif;
  text-shadow: rgba(239, 236, 225, 0.7) 0px 2px 5px;
  color: #000;
-  margin: 10px 20px 40px 20px;
+  margin: 10px 20px 20px 20px;
   position: relative;
 }
 .contact-title::after {
@@ -1335,7 +1335,7 @@ header
 }
 
 .row .contact-left p {
-  font-size: 13px;
+  font-size: 18px;
    margin: 10px 20px 20px 20px;
 }
 
@@ -1346,8 +1346,8 @@ header
 }
 
 .row .contact-left .icon {
-  font-size: 10px;
-  margin-right: 1px;
+  font-size: 18px;
+  margin-right: 5px;
   color: #ffffff;
 }
 
@@ -1370,13 +1370,12 @@ header
 
 form input,form textarea{
   width: 100%;
-  font-family: 'Yrsa', sans-serif;
+  font-family: 'roboto';
   border: 1px solid saddlebrown;
   outline:none;
   background-color: #f4e9df;
-  font-family: 'R';
   padding: 10px;
-  margin: 5px 0;
+  margin: 3px 0;
   color: #000000;
   font-size: 18px;
   border-radius: 6px;
@@ -1384,7 +1383,7 @@ form input,form textarea{
 form ::placeholder
 {
   color: #000000;
-  font-size: large;
+  font-size: 18px;
   align-items: center;
 }
 
@@ -1393,7 +1392,7 @@ form .form-btn
   justify-content: center;
   align-items: center;
   width: 50%;
-  height: 10%;
+  height: 13%;
   border: none;
   color: #ffffff;
   background: #4e3a27de;
