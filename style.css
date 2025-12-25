@@ -1470,7 +1470,7 @@ header
     position: relative;
     top: 50px;
     left: 0;
-    padding:30px;
+    padding:15px;
   }
 
   .main-text .welcome-text 
@@ -1486,7 +1486,7 @@ header
 .main-text .description
 {
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   width: 100%;
   position: relative;
   right: 10%;
@@ -1676,7 +1676,7 @@ header
 }
 
 .service-card h2 {
-  font-size: 15px;
+  font-size: 11px;
   color: #000000;
   margin-bottom: 2px;
   text-align: left;
@@ -1781,7 +1781,8 @@ header
 .row .contact-right {
   flex: 1;
   flex-basis: 100%;
-  padding: 20px;
+  /* padding: 20px; */
+  padding: 5px 15px;
 }
 
 .contact-title{
@@ -1842,7 +1843,7 @@ form input,form textarea{
   outline:none;
   background-color: #f4e9df;
   font-family: 'roboto';
-  padding: 10px;
+  padding: 6px;
   margin: 5px 0;
   color: #000000;
   font-size: 20px;
